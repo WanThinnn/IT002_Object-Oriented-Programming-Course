@@ -1,0 +1,93 @@
+// HINH VUONG va HINH CHU NHAT
+// co quan he " IS A "
+
+class HinhChuNhat{};
+
+class HinhVuong : public HinhChuNhat{};
+
+
+//DA GIAC va DIEM
+// co quan he " HAS A "
+
+class Diem{};
+
+class DaGiac{
+private:
+    Diem *Dinh;
+};
+
+
+//GiAM DOC va NHANVIEN
+// co quan he " HAS A " va " IS A " : giam doc co nhieu nhan vien trong cong ti, nhung giam doc cung la nhan vien cua cong ti
+
+class NhanVien{};
+
+class GiamDoc : public NhanVien{
+private:
+    NhanVien *Cap_duoi;
+};
+
+
+//HINH ELLIPSE va HINH TRON
+//co quan he " IS A "
+
+class Ellipse{};
+
+class HinhTron : public Ellipse{};
+
+
+//MAY BAY va DONG CO MAY
+//co quan he " HAS A "
+
+class DongCoMay{};
+
+class MayBay{
+private:
+    DongCoMay *Parts;
+};
+
+
+//CAU va TU
+//co quan he " HAS A " ( cung co the co quan he " IS A " : 1 tu co the la cau ( cau rut gon ) vd: A!, Oi!)
+
+class Tu{};
+
+class Cau{
+private:
+    Tu *pTu;
+};
+
+
+//HANG HOA va MI PHAM
+//co quan he " IS A "
+
+class HangHoa{};
+
+class MiPham : public HangHoa{};
+
+
+//CAY TRONG va CAY LUA
+//co quan he " IS A "
+
+class CayTrong{};
+
+class CayLua : public CayTrong{};
+
+
+//THU VIEN va SACH
+//co quan he " HAS A "
+
+class Sach{};
+
+class ThuVien{
+private:
+    Sach *pSach;
+};
+
+
+//PHIM ANH va PHIM HOAT HINH
+//co quan he " IS A "
+
+class PhimAnh{};
+
+class PhimHoatHinh : public PhimAnh{};

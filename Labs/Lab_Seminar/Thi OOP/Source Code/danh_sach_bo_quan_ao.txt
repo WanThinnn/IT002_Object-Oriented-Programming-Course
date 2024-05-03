@@ -1,0 +1,5 @@
+Ao: 111 M@A Thun Den Nam S 12
+Quan: 092m M@A Jean Xanh Nam M 13
+Phu kien thu 1: 001mmx Vong Vang 12 2
+Phu kien thu 2: 002 Khan Den 12 2
+

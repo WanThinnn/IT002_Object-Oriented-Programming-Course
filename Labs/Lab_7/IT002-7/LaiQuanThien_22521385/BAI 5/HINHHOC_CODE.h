@@ -1,0 +1,6 @@
+#ifndef HINHHOC_CODE_h
+#define HINHHOC_CODE_h
+HINHHOC::HINHHOC() {}
+HINHHOC::~HINHHOC() {}
+
+#endif
